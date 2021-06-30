@@ -43,6 +43,7 @@ a {
 
 #wrapper {
     background: #FFFFFF url(../images/img05.jpg) repeat;
+    margin: 0 1%;
 }
 
 .container {
@@ -53,6 +54,7 @@ a {
 
 #header-wrapper {
     overflow: hidden;
+    margin: 0 2%;
 }
 
 #header {
@@ -100,13 +102,13 @@ a {
 .hamburger{
   background:none;
   position:absolute;
-  top:0;
+  top:40px;
   right:0;
   line-height:45px;
   padding:5px 15px 0px 15px;
-  color:#999;
+  color:#000000;
   border:0;
-  font-size:1.4em;
+  font-size:1.5em;
   font-weight:bold;
   cursor:pointer;
   outline:none;
@@ -195,6 +197,7 @@ a {
 .post .entry {
     padding: 0px 0px 40px 0px;
     text-align: justify;
+    font-size: .75rem;
 }
 
 .entry img {
@@ -333,6 +336,7 @@ a {
 
 .content-container {
     max-width: 1050px;
+
 }
 
 #header {
